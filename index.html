@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Monu Bhai!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Outfit:wght@400;600;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ENTRY SCREEN -->
+  <div id="entryScreen" class="entry-screen">
+      <div class="entry-glow"></div>
+      <p class="entry-hint">🎂 Someone special is waiting…</p>
+      <button type="button" id="startBtn" class="start-btn">
+          <span class="start-btn-text">Touch करके धमाका करो!</span>
+          <span class="start-btn-emoji">🎉</span>
+      </button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="content" id="content" hidden>
+
+      <!-- HERO -->
+      <header class="hero">
+          <h1 class="title">Happy Birthday</h1>
+          <h2 class="name">Monu Bhai</h2>
+          <p class="wish wish-hero">🎂 मेरे प्यारे भाई, मेरी जान 🤗</p>
+      </header>
+
+      <!-- MESSAGE -->
+      <section class="quotes-section">
+          <div class="typewriter-wrap">
+              <div class="typewriter">
+                  "Monu Bhai…  
+                  Pichhle 4 saalon se tu mujhse door hai,  
+                  par usse pehle ke woh din —  
+                  jab hum saath rehte the —  
+                  aaj bhi bilkul zinda hain.
+
+                  Woh hansi, woh baatein,  
+                  woh bina wajah ke moments,  
+                  jo waqt ke saath yaadein ban gaye.  
+                  Aaj tu paas nahi hai,  
+                  par in tasveeron mein  
+                  har pal phir se jee raha hoon main.
+
+                  Yeh photos sirf images nahi hain,  
+                  yeh woh yaadein hain  
+                  jo distance bhi kam nahi kar paaya.  
+                  Aur chahe zindagi humein  
+                  kitni bhi door le jaaye,  
+                  meri yaari hamesha wahi rahegi —  
+                  jahan se shuru hui thi." 🤍✨
+              </div>
+          </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="gallery-section">
+          <div class="slideshow">
+              <img src="photos/1.jpeg" alt="Memory 1">
+              <img src="photos/2.jpeg" alt="Memory 2">
+              <img src="photos/3.jpeg" alt="Memory 3">
+              <img src="photos/4.jpeg" alt="Memory 4">
+              <img src="photos/5.jpeg" alt="Memory 5">
+              <img src="photos/6.jpeg" alt="Memory 6">
+          </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="sign-off">
+          <p class="wish">Tere bhai ki taraf se… hamesha wala pyaar ❤️🔥</p>
+          <button type="button" id="replayBtn" class="replay-btn">
+              🎉 Phir se dhamaaka!
+          </button>
+      </footer>
+
+      <!-- MUSIC BUTTON -->
+      <button type="button" id="musicBtn" class="music-btn hide">🎵</button>
+
+      <!-- EXTRA FEATURE BUTTONS -->
+      <div class="extra-controls">
+          <button id="songBtn" class="replay-btn">🎂 Birthday Song</button>
+          <button id="fadeBtn" class="replay-btn">🔊 Smooth Volume</button>
+          <button id="beatBtn" class="replay-btn">🎶 Beat Confetti</button>
+      </div>
+
+  </main>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
